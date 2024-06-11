@@ -1,2 +1,1 @@
-# TP1 PortFolio
- Tp del curso de Programacion FullStack UTN ___Portfolio
+TP Obligatorio Numero 1 del curso de Programacion FullStack de la UTN: Portfolio

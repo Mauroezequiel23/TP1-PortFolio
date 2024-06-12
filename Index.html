@@ -1,41 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PortFolio</title>
+    <title>Mi Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
-</head>
+    </head>
 <body>
-<header></header>
 
+    <header>
+        <a href="#home" class="logo">Mauroezequiel23</a>
+        <nav>
+            <a href="#home">Inicio</a>
+            <a href="#about">Acerca de mí</a>
+            <a href="#latest">Proyectos</a>
+            <a href="#services">Servicios</a>
+            <a href="#contact">Contacto</a>
+        </nav>
+    </header>
 
+    <section id="home" class="home">
+        <h2>MAP</h2>
+        <h1>MAKER</h1>
+        <img src="media/fotoHomeByW.png" alt="miFoto">
+        <p id="name">Mauro Gonzalez</p>
+        <p id="prof">Map Maker</p>
+        <div class="buttons">
+            <button>Contratame</button>
+            <button>Contacto</button>
+        </div>
+    </section>
 
+    <section id="about" class="about">
+        <h2>Acerca de mi</h2>
+        <p>Me llamo [Tu Nombre] y soy [tu profesión]. Tengo experiencia en [tu experiencia].</p>
+    </section>
 
-<main>
-<section></section>
+    <section id="latest" class="latest">
+        <h2>Proyectos</h2>
+        <p>Aquí están mis últimos proyectos:</p>
+        <ul>
+            <li>Proyecto 1</li>
+            <li>Proyecto 2</li>
+            <li>Proyecto 3</li>
+        </ul>
+    </section>
 
+    <section id="services" class="services">
+        <h2>Servicios</h2>
+        <p>Ofrezco los siguientes servicios:</p>
+        <ul>
+            <li>Servicio 1</li>
+            <li>Servicio 2</li>
+            <li>Servicio 3</li>
+        </ul>
+    </section>
 
-<section></section>
+    <section id="contact" class="contact">
+        <h2>Contacto</h2>
+        <p>Puedes contactarme mediante el siguiente formulario:</p>
+        <form action="enviar_email.php" method="post">
+            <input type="text" name="nombre" placeholder="Tu nombre" required>
+            <input type="email" name="email" placeholder="Tu email" required>
+            <textarea name="mensaje" placeholder="Tu mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
 
+    <footer>
+        <p>© 2024 Mi Portfolio. Todos los derechos reservados.</p>
+    </footer>
 
-<section></section>
-
-
-<section></section>
-
-
-
-
-</main>
-
-
-
-
-<footer></footer>
-
-
-
-    
 </body>
 </html>

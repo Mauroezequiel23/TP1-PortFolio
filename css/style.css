@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'stolzlFont';
+    src: url('../fonts/stolzl-bold.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ArdelaFont';
+    src: url('../fonts/ardela-edge-x01-black-outline.ttf') format('truetype');
+    font-weight:bold;
+    font-style: normal;
+}
+
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to right, #262626, #000000);
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+header a.logo {
+    margin-right: auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    margin-left: 50%;
+}
+
+nav a {
+    margin-left: 2rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.home {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home .content {
+    position: relative;
+    z-index: 2;
+}
+
+.home h2 {
+    position: absolute;
+    top: -5%;
+    left: 35.2%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+    font-size: 10rem;
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+    font-family: 'ArdelaFont';
+    
+}
+
+.home h1 {
+    position: absolute;
+    top: 3%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    font-size: 17rem;
+    color: #fff;
+    text-align: left;    
+    font-family: 'ArdelaFont';
+    
+}
+
+.home img {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 70%;
+    max-height: 70%;
+    z-index: 3;
+    opacity: 1;
+
+}
+
+.home p{
+    z-index: 3;
+}
+
+#name{
+    position: absolute;
+    top: 58.5%;
+    left: 35%;
+    font-size: 4rem;
+    font-family: "stolzlFont";
+    background: linear-gradient(to right, #a4a4a4, #232323);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;    
+}
+#prof{
+    position: absolute;
+    top: 73%;
+    left: 44%;
+    font-size: 2.2rem;
+    font-family: "stolzlFont";
+}

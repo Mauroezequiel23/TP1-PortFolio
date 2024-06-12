@@ -175,45 +175,12 @@ nav a {
     height: 190%; 
     background-color: #303130;
     border-radius: 50%;
-    position: absolute;
-    top: -110%;
-    left: -40%;
+    position: absolute; /* Lo posiciona de forma fija en la esquina */
+    top: -110%; /* Ajusta la distancia desde la parte superior */
+    left: -40%; /* Ajusta la distancia desde la izquierda */
     z-index: -99; 
 }
 
+
+
 /*HASTA ACA EL HOME*/
-
-/*CONTACTO*/
-
-.contact{
-    font-family: 'godFont';
-    font-size: 22px;
-}
-.contact h2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.contact p{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.logos{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.contact img{
-
-    height: 100px;
-    width: 100px;
-}
-
-/*FOOTER*/
-footer{    
-    display: flex;
-    align-items: center;
-    justify-content: center;    
-    background-color: #626362;
-}

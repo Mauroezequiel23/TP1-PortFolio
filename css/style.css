@@ -162,3 +162,13 @@ nav a {
     font-family: "godFont";
     
 }
+.circulo{
+    width: 100%; 
+    height: 190%; 
+    background-color: #303130;
+    border-radius: 50%;
+    position: absolute; /* Lo posiciona de forma fija en la esquina */
+    top: -110%; /* Ajusta la distancia desde la parte superior */
+    left: -40%; /* Ajusta la distancia desde la izquierda */
+    z-index: -99; 
+}

@@ -10,7 +10,12 @@
     font-weight:bold;
     font-style: normal;
 }
-
+@font-face {
+    font-family: 'godFont';
+    src: url('../fonts/godshinesans.bold.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
     margin: 0;
@@ -120,4 +125,40 @@ nav a {
     left: 44%;
     font-size: 2.2rem;
     font-family: "stolzlFont";
+}
+
+
+#btnContratame {
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 7px; 
+    color: #fff;
+    padding: 9px 20px; 
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 5;
+    position: absolute;
+    top: 88%;
+    left: 38%;
+
+    
+    font-family: "godFont";
+}
+#btnContacto {
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 7px; 
+    color: #fff;
+    padding: 9px 20px; 
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 5;
+    position: absolute;
+    top: 88%;
+    left: 51%;
+
+    font-family: "godFont";
+    
 }
